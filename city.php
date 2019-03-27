@@ -1,5 +1,4 @@
 <?php
-
 $geolocation = '18.325122,42.6949424';
 $request = 'http://maps.googleapis.com/maps/api/geocode/json?latlng='.$geolocation.'&sensor=false'; 
 $file_contents = file_get_contents($request);
